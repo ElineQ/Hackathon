@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(241, 182, 217);
+    font-family: monospace;
+    margin: auto
+    border: 5px solid rgb(128, 0, 60)
+    font-size: larger; 
+}
+
+.center {
+    margin:10px 50px 40px 50px;
+    padding: 20px;
+    border: 3px solid rgb(128, 0, 60);
+    text-align: center;
+    
+  }
+
+.look-vriendje{
+background-color: rgb(248, 178, 187);
+
+}
+
+.look-dobby{
+background-color: rgb(225, 163, 240);
+}
+
+@media (min-width 600px){
+    p {
+      font-size: 1,25rem;
+    }
+  }
+  
+  @media (min-width 800px){
+    p{
+      font-size: 1,5rem;
+      line-height: 1,5;
+    }
+  }
